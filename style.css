@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    background-image: url('./netflixx/NG-en-20231106-popsignuptwoweeks-perspective_alpha_website_small.jpg') ;
+    background-color: rgba(0, 0, 0, 0.555);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+}
+.line{
+    width: 100%;
+    color: white;
+    height: 300px;
+    position: absolute;
+}
+.herotxt {
+    height: 200px;
+    color: white;
+}
+.herotxt h1{
+    font-weight: 900;
+}
+.uses div h1{
+    color: white;
+    font-weight: 900;
+}
+.uses div p{
+    color: white;
+    font-size: 22px;
+}
+.wrapper{
+    display: flex;
+    padding-top: 70px;
+    width: 100%;
+    border-top: solid 7px rgb(88, 87, 87);
+}
+.img img{
+    width: 500px;
+}
+.faq h1{
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+
+.wrapper .txt{
+    width: fit-content;
+    margin: 50px auto;
+}
+nav div{
+    background-color: transparent;
+}
+nav{
+    background-color: transparent;
+}
+.herotxt{
+    width: fit-content;
+    margin: 180px auto;
+    text-align: center;
+    color: white;
+}
+.herotxt p{
+    font-size: 22px;
+    line-height: 50px;
+}
+#getbtn{
+    padding: 10px 20px;
+    background-color: red;
+}
+.uses{
+    background-color: black;
+
+}
+.faq .container{
+    gap: 5em;
+}
+.faq{
+    border-top:  2px white;
+    background-color: black;
+    height: fit-content;
+}
+#acc {
+    text-decoration: none;
+    color: white;
+    height: 80px;
+    font-size: 22px;
+}
+#iconskill:hover .collapse{
+    display: block;
+}
+#iconskill{
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16"><path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/></svg>');
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.164);
+    background-repeat: no-repeat;
+    background-position: 65.625rem;
+    background-size: 50px;
+}
+#iconskill:hover{
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16"><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/></svg>');
+}
+.accordion{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding-top: 20px;
+    color: black;
+}
+.card-body{
+    color: wheat;
+}
+footer{
+    background-color: black;
+    height: 20vh;
+}
+.realfooter{
+    border-top: solid 7px grey;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100vh;
+}
+.realfooter div{
+    margin: 50px auto;
+}
+.realfooter div li{
+    list-style-type: none;
+    color: white;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+#search{
+    display: flex;
+}
+@media screen and (max-width: 1199px) {
+    #iconskill{
+        background-position: 51.625rem;
+    }
+}
+@media screen and (max-width: 983px) {
+    #iconskill{
+        background-position: 38.625rem;
+    }
+    #iconskkill div li{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 885px) {
+    .wrapper{
+        display: block;
+    }
+    .img{
+        margin: auto;
+        width: fit-content;
+    }
+    
+
+}
+@media screen and (max-width: 756px) {
+    #iconskill{
+        background-position: 28.625rem;
+    }
+}
+@media screen and (max-width: 692px) {
+    .herotxt{
+       margin-top: 55px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #searchbar{
+       width: 100%;
+    }
+}
+@media screen and (max-width: 512px) {
+    #iconskill{
+        background-position: 24.625rem;
+    }
+}
+@media screen and (max-width: 530px) {
+    .realfooter{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .realfooter{
+        height: 150vh;
+    }
+}
+@media screen and (max-width: 508px) {
+    .img img{
+      width: 60%;
+    }
+}
+@media screen and (max-width: 455px) {
+    #iconskill{
+        background-position: 19.625rem;
+    }
+}
+@media screen and (max-width: 397px) {
+    #search{
+        flex-direction: column;
+    }
+    #search >*{
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 349px){
+    .herotxt{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #search{
+        margin-top: 0;
+    }
+} 
